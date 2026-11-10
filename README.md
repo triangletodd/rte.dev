@@ -18,7 +18,7 @@ Visit `http://localhost:8000`.
 
 ## Editing
 
-- `index.html` — page content, project links, contact information, and metadata
+- `index.html` — page content, section links, contact information, and metadata
 - `assets/css/cyberpunk.css` — the live stylesheet and theme tokens (`:root`)
 - `assets/images/terminal-mark.svg` — terminal favicon
 - `assets/images/avatar.jpg` — existing portrait
