@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<title>rte.dev terminal mark</title>
+<rect width="64" height="64" rx="12" fill="#070a15"/>
+<path d="M10 2h34l18 18v32a10 10 0 0 1-10 10H12A10 10 0 0 1 2 52V12A10 10 0 0 1 12 2Z" fill="#0c1224" stroke="#41eee7" stroke-width="2"/>
+<path d="m17 24 12 8-12 8" fill="none" stroke="#41eee7" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+<path d="M34 42h13" stroke="#f35bd4" stroke-linecap="round" stroke-width="4"/>
+</svg>
