@@ -1,44 +1,226 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Todd Edwards - Raleigh, NC | Software Engineer</title>
-    <meta charset="utf-8" />
-    <meta name=”robots” content="index, follow" />
-    <meta name="title" content="Todd Edwards - Raleigh, NC | Software Engineer" />
-    <meta name="description" content="Personal site of Todd Edwards currently living in Raleigh, NC." />
-    <meta name="keywords" content="Todd Edwards, Raleigh, NC, software, engineer" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
-			<div id="wrapper">
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="assets/images/avatar.jpg" alt="" /></span>
-							<h1>Todd Edwards</h1>
-							<p>Senior DevOps Engineer @<a href="https://boxboat.com">BoxBoat</a> an <a href="https://www.ibm.com/">IBM Company</a></p>
-						</header>
-					</section>
-					<footer id="footer">
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/triangletodd" class="fa-linkedin">LinkedIn</a></li>
-							<li><a href="https://www.twitter.com/triangletodd" class="fa-twitter">Twitter</a></li>
-							<li><a href="https://www.github.com/triangletodd" class="fa-github">Github</a></li>
-							<li><a rel="me" href="https://fosstodon.org/@triangletodd" class="fa-commenting-o">Mastodon</a></li>
-						</ul>
-						<ul class="copyright">
-							<li>&copy; Todd Edwards</li>
-						</ul>
-					</footer>
-			</div>
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() {
-            document.body.className = document.body.className.replace(/\bis-preload\b/, '');
-          });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-	</body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#070a15">
+  <meta name="description" content="Todd Edwards — cloud, DevOps, and platform engineer. I design reliable infrastructure, simplify software delivery, and automate what gets in the way.">
+  <meta name="author" content="Todd Edwards">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Todd Edwards | Cloud, DevOps &amp; Platform Engineering">
+  <meta property="og:description" content="Engineering reliable systems, developer platforms, and automated delivery.">
+  <meta property="og:url" content="https://rte.dev/">
+  <meta property="og:site_name" content="rte.dev">
+  <meta name="twitter:card" content="summary">
+  <link rel="canonical" href="https://rte.dev/">
+  <link rel="icon" type="image/svg+xml" href="/assets/images/terminal-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/cyberpunk.css">
+  <title>Todd Edwards — Cloud &amp; DevOps Engineer | rte.dev</title>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="rte.dev, back to top">
+        <span class="brand-mark" aria-hidden="true">&gt;_</span>
+        <span>rte<span class="dot">.</span>dev</span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#about">About</a>
+        <a href="#expertise">Expertise</a>
+        <a href="#projects">Projects</a>
+        <a href="#stack">Stack</a>
+        <a class="nav-contact" href="#contact">Connect ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-layout">
+        <div class="hero-copy">
+          <p class="eyebrow">Todd Edwards / cloud + DevOps engineer</p>
+          <h1 id="hero-title"><span>Built to</span><span class="gradient-text">ship.</span><span>Built to scale.</span></h1>
+          <p class="hero-lede">I’m <strong>Todd Edwards</strong> — a software, cloud, and DevOps engineer who likes getting close to the code. I build platforms, automate delivery, and turn complex infrastructure into systems people can actually operate.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects">Explore my work <span class="arrow" aria-hidden="true">↗</span></a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/triangletodd/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn <span class="arrow" aria-hidden="true">↗</span></a>
+          </div>
+          <div class="hero-meta" aria-label="At a glance">
+            <span class="meta-item"><span class="light" aria-hidden="true"></span>Engineering first</span>
+            <span class="meta-item"><span class="symbol" aria-hidden="true">⌁</span> North Carolina, USA</span>
+            <span class="meta-item"><span class="symbol" aria-hidden="true">#</span> Linux / Cloud / Automation</span>
+          </div>
+        </div>
+
+        <div class="visual" aria-label="Stylized terminal showing engineering specialties">
+          <div class="orbit" aria-hidden="true"></div>
+          <div class="terminal">
+            <div class="terminal-top" aria-hidden="true">
+              <span class="window-dot"></span><span class="window-dot"></span><span class="window-dot"></span>
+              <span class="terminal-title">todd@rte: ~ / zsh</span>
+            </div>
+            <div class="terminal-body">
+              <div class="term-line"><span class="term-prompt">todd@rte ~ % </span><span class="term-command">whoami</span></div>
+              <div class="term-line term-result"><span class="value">Todd Edwards</span></div>
+              <div class="term-line term-result">Cloud + DevOps Engineer <span class="highlight">/</span> Builder</div>
+              <div class="term-gap" aria-hidden="true"></div>
+              <div class="term-line"><span class="term-prompt">todd@rte ~ % </span><span class="term-command">cat ./focus.txt</span></div>
+              <div class="term-line term-result"><span class="value">01.</span> Platform engineering</div>
+              <div class="term-line term-result"><span class="value">02.</span> Secure software delivery</div>
+              <div class="term-line term-result"><span class="value">03.</span> CI/CD &amp; Kubernetes</div>
+              <div class="term-line term-result"><span class="value">04.</span> Local AI experiments</div>
+              <div class="term-gap" aria-hidden="true"></div>
+              <div class="term-line"><span class="term-prompt">todd@rte ~ % </span><span class="term-command">echo $MOTTO</span></div>
+              <div class="term-line term-result">Automate the boring parts.</div>
+              <div class="term-line"><span class="term-prompt">todd@rte ~ % </span><span class="cursor" aria-label="cursor"></span></div>
+            </div>
+            <div class="terminal-footer"><span>mode: <b>engineering</b></span><span>connection: <b>secure</b></span></div>
+          </div>
+          <div class="visual-tag" aria-hidden="true">[ NO MAGIC. JUST SYSTEMS. ]</div>
+        </div>
+      </div>
+    </section>
+
+    <div class="ticker" aria-label="Areas of focus">
+      <div class="container ticker-inner">
+        <span>Linux at heart</span><span>Cloud native</span><span>Automation obsessed</span><span>Engineering over buzzwords</span>
+      </div>
+    </div>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <img class="profile-image" src="/assets/images/avatar.jpg" alt="Portrait of Todd Edwards" width="190" height="190" loading="lazy">
+          <p class="visual-caption">USER: TRIANGLETODD // VERIFIED HUMAN</p>
+        </div>
+        <div class="about-copy">
+          <p class="eyebrow"><span class="section-number">01</span> / About me</p>
+          <h2 id="about-title">Less slide deck.<br><span class="gradient-text">More shell prompt.</span></h2>
+          <p>My background is in <strong>software engineering, Linux, distributed systems, and automation</strong>. I’ve spent years designing and operating cloud platforms and the delivery systems that power them.</p>
+          <p>Today I work in cloud and DevOps consulting at <strong>IBM</strong>. My favorite problems are still hands-on: improving the developer experience, building CI/CD systems, untangling infrastructure, and making software delivery more reliable.</p>
+          <ul class="about-points">
+            <li>Technical depth over technical theater.</li>
+            <li>Useful automation over unnecessary complexity.</li>
+            <li>Pragmatic solutions that teams can maintain.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="expertise" aria-labelledby="expertise-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="section-number">02</span> / What I do</p>
+            <h2 id="expertise-title">Things I like to <span class="gradient-text">build.</span></h2>
+          </div>
+          <p class="section-description">Engineering work that sits where infrastructure, developer experience, and reliable software delivery meet.</p>
+        </div>
+        <div class="capabilities">
+          <article class="capability-card">
+            <div class="card-index"><span>01 / PLATFORM</span><span class="card-icon" aria-hidden="true">◇</span></div>
+            <h3>Cloud &amp; platform engineering</h3>
+            <p>Cloud-native infrastructure, containers, Kubernetes, and the operational foundations that help teams ship confidently.</p>
+          </article>
+          <article class="capability-card">
+            <div class="card-index"><span>02 / DELIVERY</span><span class="card-icon" aria-hidden="true">↳</span></div>
+            <h3>CI/CD &amp; developer tooling</h3>
+            <p>Build pipelines, GitHub migrations, automation, and tooling that remove friction from the path to production.</p>
+          </article>
+          <article class="capability-card">
+            <div class="card-index"><span>03 / SYSTEMS</span><span class="card-icon" aria-hidden="true">⌘</span></div>
+            <h3>Linux &amp; systems automation</h3>
+            <p>Practical systems engineering, repeatable environments, observability, and exploring what local AI can do for workflows.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="section-number">03</span> / Open source</p>
+            <h2 id="projects-title">Selected <span class="gradient-text">repositories.</span></h2>
+          </div>
+          <p class="section-description">A few public projects and experiments. The interesting enterprise work is not always public.</p>
+        </div>
+        <div class="projects-grid">
+          <a class="project-card" href="https://github.com/triangletodd/web-search-mcp" target="_blank" rel="noopener noreferrer">
+            <div class="project-top"><span class="kind">LOCAL AI / MCP</span><span class="external" aria-hidden="true">↗</span></div>
+            <h3>web-search-mcp</h3>
+            <p>A simple self-hosted web search MCP server for locally running language models.</p>
+            <div class="project-meta"><span>TypeScript</span><span>LLM tooling</span><span>MCP</span></div>
+          </a>
+          <a class="project-card" href="https://github.com/triangletodd/asdf-ibmcloud" target="_blank" rel="noopener noreferrer">
+            <div class="project-top"><span class="kind">CLI / AUTOMATION</span><span class="external" aria-hidden="true">↗</span></div>
+            <h3>asdf-ibmcloud</h3>
+            <p>An asdf version-manager plugin for working with the IBM Cloud command-line tooling.</p>
+            <div class="project-meta"><span>Shell</span><span>IBM Cloud</span><span>Dev tools</span></div>
+          </a>
+          <a class="project-card" href="https://github.com/triangletodd/probot-labeler" target="_blank" rel="noopener noreferrer">
+            <div class="project-top"><span class="kind">GITHUB / AUTOMATION</span><span class="external" aria-hidden="true">↗</span></div>
+            <h3>probot-labeler</h3>
+            <p>Automates labels on GitHub issues and pull requests using titles and slash commands.</p>
+            <div class="project-meta"><span>JavaScript</span><span>Probot</span><span>GitHub</span></div>
+          </a>
+          <a class="project-card" href="https://github.com/triangletodd/dotfiles" target="_blank" rel="noopener noreferrer">
+            <div class="project-top"><span class="kind">WORKSTATION / SETUP</span><span class="external" aria-hidden="true">↗</span></div>
+            <h3>dotfiles</h3>
+            <p>The developer environment, configuration, and everyday workflow experiments behind the scenes.</p>
+            <div class="project-meta"><span>Developer setup</span><span>Configuration</span></div>
+          </a>
+        </div>
+        <a class="project-link" href="https://github.com/triangletodd?tab=repositories" target="_blank" rel="noopener noreferrer">Browse all repositories <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <section class="section" id="stack" aria-labelledby="stack-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow"><span class="section-number">04</span> / Tools of the trade</p>
+            <h2 id="stack-title">My everyday <span class="gradient-text">toolbox.</span></h2>
+          </div>
+          <p class="section-description">Tools change. Good engineering habits should outlast them.</p>
+        </div>
+        <div class="stack-panel">
+          <div class="stack-row"><h3 class="stack-label">Infrastructure</h3><div class="stack-tags"><span>Linux</span><span>Kubernetes</span><span>Docker</span><span>AWS</span><span>Azure</span><span>IBM Cloud</span></div></div>
+          <div class="stack-row"><h3 class="stack-label">Software delivery</h3><div class="stack-tags"><span>GitHub Actions</span><span>Jenkins</span><span>GitLab CI</span><span>Git</span><span>CI/CD</span></div></div>
+          <div class="stack-row"><h3 class="stack-label">Engineering</h3><div class="stack-tags"><span>Python</span><span>Bash</span><span>TypeScript</span><span>Distributed systems</span><span>Automation</span></div></div>
+          <div class="stack-row"><h3 class="stack-label">Experimenting with</h3><div class="stack-tags"><span>Local LLMs</span><span>Model Context Protocol</span><span>Multi-agent workflows</span><span>Homelab</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="contact-panel">
+          <div>
+            <p class="eyebrow"><span class="section-number">05</span> / Let's connect</p>
+            <h2 id="contact-title">Got a complex problem?<br><span class="gradient-text">Let's talk systems.</span></h2>
+            <p>Interested in cloud engineering, developer platforms, CI/CD, or just comparing notes on something technical? Find me on LinkedIn or GitHub.</p>
+          </div>
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/triangletodd/" target="_blank" rel="noopener noreferrer">Start a conversation <span class="arrow" aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© Todd Edwards <span class="accent">//</span> rte.dev <span class="accent">//</span> Built with HTML &amp; CSS</p>
+      <nav class="footer-links" aria-label="Social links">
+        <a href="https://github.com/triangletodd" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        <a href="https://www.linkedin.com/in/triangletodd/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+        <a href="https://fosstodon.org/@triangletodd" target="_blank" rel="me noopener noreferrer">Mastodon ↗</a>
+      </nav>
+    </div>
+  </footer>
+</body>
 </html>
